@@ -1,0 +1,24 @@
+{
+  "name": "oxboot/framework",
+  "description": "The Oxboot framework",
+  "keywords": ["oxboot", "framework", "WordPress"],
+  "license": "MIT",
+  "authors":[
+    {
+      "name": "Zorca",
+      "email": "vs@zorca.org",
+      "homepage": "https://oxboot.com"
+    }
+  ],
+  "autoload": {
+    "autoload": {
+      "psr-4": {
+        "Oxboot\\Framework\\": "src"
+      }
+    }
+  },
+  "require": {
+    "php": ">=7.1.3",
+    "illuminate/container": "5.6.*"
+  }
+}
