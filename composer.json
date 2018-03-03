@@ -11,10 +11,8 @@
     }
   ],
   "autoload": {
-    "autoload": {
-      "psr-4": {
-        "Oxboot\\Framework\\": "src"
-      }
+    "psr-4": {
+      "Oxboot\\Framework\\": "src"
     }
   },
   "require": {
