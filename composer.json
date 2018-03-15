@@ -13,7 +13,10 @@
   "autoload": {
     "psr-4": {
       "Oxboot\\Framework\\": "src"
-    }
+    },
+    "files": [
+      "src/helpers.php"
+    ]
   },
   "require": {
     "php": ">=7.1.3",
