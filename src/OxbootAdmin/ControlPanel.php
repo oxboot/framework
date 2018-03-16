@@ -10,7 +10,7 @@ namespace Oxboot\Framework\OxbootAdmin;
  *
  */
 
-class Menu {
+class ControlPanel {
 
     public function init() {
         add_action('admin_menu', [$this, 'add_oxboot_menu_page']);
