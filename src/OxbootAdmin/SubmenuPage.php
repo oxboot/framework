@@ -8,7 +8,7 @@ namespace Oxboot\Framework\OxbootAdmin;
  * Provides the functionality necessary for rendering the page corresponding
  * to the submenu with which this page is associated.
  */
-class Submenu_Page {
+class SubmenuPage {
     public function render() {
         echo 'This is the basic submenu page.';
     }
