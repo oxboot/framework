@@ -1,6 +1,7 @@
 <?php
 
 use Oxboot\Framework\Application;
+use Illuminate\Contracts\View\Factory as ViewFactory;
 
 if (! function_exists('app')) {
     function app($abstract = null, array $parameters = [])

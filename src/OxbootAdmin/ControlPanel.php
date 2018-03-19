@@ -2,6 +2,10 @@
 
 namespace Oxboot\Framework\OxbootAdmin;
 
+use Illuminate\Contracts\View\Factory;
+use Illuminate\View\Compilers\BladeCompiler;
+use Illuminate\View\Compilers\Compiler;
+
 /**
  * Creates the submenu item for the plugin.
  *
@@ -29,8 +33,6 @@ class ControlPanel {
     }
 
     function print_oxboot_control_panel() {
-        echo '<div class="wrap">';
-        echo '<h2>'.get_admin_page_title().'</h2>';
-        echo '</div>';
+        echo app('view');
     }
 }
